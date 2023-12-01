@@ -25,7 +25,6 @@ img {
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
-    border: solid yellow;
 }
 
 .head-hero  {
@@ -33,15 +32,14 @@ img {
     padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
-    border: solid red
 }
 
 .heros {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: flex-start;
-    border: solid lightgreen;
+    align-content: flex-start;
     width: 600px;
 }
 
@@ -49,18 +47,28 @@ img {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    border: solid lightskyblue;
+    margin: 0px;
 }
 
 .hero-text {
-    border: solid lightsalmon;
+    margin: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .hero-button {
-
+    margin: 0px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    border: 0;
 }
 
-.img1 {
+.img1-head {
     width: 650px;
     height: auto;
 }
@@ -90,16 +98,133 @@ img {
 .rinfo {
     padding-left: 15%;
     padding-right: 15%;
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rinfo-head {
+    border: solid green;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.rinfo-images {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    border: solid yellow;
+    
+}
+
+.img1-text {
+    border: solid orange;
+
+}
+
+.img1 {
+    width: 150px;
+    height: auto;
+}
+
+.text1 {
+    display: block;
+}
+
+.img2-text {
+    border: solid blue;
+
+}
+
+.img2 {
+    width: 150px;
+    height: auto;
+}
+
+.text2 {
+    display: block;
+}
+
+.img3-text {
+    border: solid green;
+}
+
+.img3 {
+    width: 150px;
+    height: auto;
+}
+
+.text3 {
+    display: block;
+}
+
+.img4-text {
+    border: solid purple;
+}
+
+.img4 {
+    width: 150px;
+    height: auto;
+}
+
+.text4 {
+    display: block;
 }
 
 .quote {
     padding-left: 15%;
     padding-right: 15%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    margin: 0px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-quote {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .action {
     padding-left: 15%;
     padding-right: 15%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border: solid cyan;
+}
+
+.action-blue {
+    border: solid purple;
+}
+
+.action-text {
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.action-h2 {
+    border: solid brown;
+}
+
+.action-p {
+    border: solid greenyellow;
+}
+
+.action-button {
+
 }
 
 .footer {
