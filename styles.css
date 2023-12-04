@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction:column;
     margin: 0px;
-    border: solid pink;
 }
 
 img {
@@ -98,35 +97,37 @@ img {
 .rinfo {
     padding-left: 15%;
     padding-right: 15%;
-    border: solid red;
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .rinfo-head {
-    border: solid green;
     font-size: 36px;
     font-weight: bolder;
+    text-align: center;
     color: #1F2937;
 }
 
 .rinfo-images {
     display: flex;
-    flex-grow: 1;
-    justify-content: space-between;
-    border: solid yellow;
-    
+    justify-content: space-around;
+    gap: 60px;
 }
 
 .img1-text {
-    border: solid orange;
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
 }
 
 .img1 {
-    width: 150px;
+    width: 200px;
     height: auto;
+    border-radius: 5px;
 }
 
 .text1 {
@@ -134,13 +135,18 @@ img {
 }
 
 .img2-text {
-    border: solid blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
 
 }
 
 .img2 {
-    width: 150px;
+    width: 200px;
     height: auto;
+    border-radius: 5px;
 }
 
 .text2 {
@@ -148,12 +154,17 @@ img {
 }
 
 .img3-text {
-    border: solid green;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
 }
 
 .img3 {
-    width: 150px;
+    width: 200px;
     height: auto;
+    border-radius: 5px;
 }
 
 .text3 {
@@ -161,12 +172,17 @@ img {
 }
 
 .img4-text {
-    border: solid purple;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
 }
 
 .img4 {
-    width: 150px;
+    width: 200px;
     height: auto;
+    border-radius: 5px;
 }
 
 .text4 {
@@ -184,13 +200,15 @@ img {
 }
 
 .quote-text {
-    margin: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
 }
 
 .quote-quote {
+    margin-right: 10%;
     align-self: flex-end;
     font-size: 18px;
     font-weight: bold;
@@ -201,11 +219,9 @@ img {
     padding-right: 15%;
     padding-top: 80px;
     padding-bottom: 80px;
-    border: solid cyan;
 }
 
 .action-blue {
-    border: solid purple;
     background-color: #3882F6;
     border-radius: 5px;
     padding: 20px;
@@ -215,19 +231,16 @@ img {
 
 .action-text {
     margin: 20px;
-    border: solid black;
     display: flex;
     flex-direction: column;
 }
 
 .action-h2 {
-    border: solid brown;
     color: #F9FAF8;
     margin: 0px;
 }
 
 .action-p {
-    border: solid greenyellow;
     color: #F9FAF8;
     margin: 0px;
 }
